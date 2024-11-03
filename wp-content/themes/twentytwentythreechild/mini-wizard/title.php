@@ -1,6 +1,6 @@
 <?php
 /**
- * Breadcrumbs
+ * Title
  *
  * @var $args array
  */

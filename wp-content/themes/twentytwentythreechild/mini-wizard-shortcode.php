@@ -1,7 +1,5 @@
 <?php 
 
-// include('mini-wizard/constants.php');
-
 function r_test($atts, $content = null){
     $default = array(
         'title' => '',
@@ -10,7 +8,6 @@ function r_test($atts, $content = null){
     $props = shortcode_atts($default, $atts);
     $content = do_shortcode($content);
 
-    // ob_start();
     ?>
     
     <div id="r-test-root">
@@ -27,8 +24,7 @@ function r_test($atts, $content = null){
       </div>
     </div>
     <?php
-return;
-    // return ob_get_clean();
+    return;
 }
 
 add_shortcode( 'r_test', 'r_test' );

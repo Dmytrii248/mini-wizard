@@ -3,9 +3,6 @@
  * Container
  *
  */
-
-// <!-- <?php echo do_shortcode("[contact-form-7 id='f277c7d' title='Contact form 1']");
-
 ?>
 
 <div class="container rounded box__container d-flex flex-column gap-4">
